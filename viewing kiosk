@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to PUPPQ </title>
+    <link rel="stylesheet" href="2featured.css">
+    <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="home">
+            <div class="logo">
+                <img src="PUPPQ.JPG" alt="Logo">
+            </div>
+            <div class="tabs">
+                <div class="tab" href="#HOME">HOME</div>
+
+                <script>
+                    function toggleDropdown() {
+                        var panel = document.querySelector('.panel');
+                        panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
+                    }
+                </script>
+
+                <div class="tab" onclick="toggleDropdown()">
+                    OFFICES
+                    <span class="dropdown-icon"></span>
+                </div>
+                <div class="panel">
+                    <div class="dropdown-btn-container">
+                        <a href="#">REGISTRAR</a>
+                        <a href="#">CASHIER</a>
+                        <a href="#">ACADEMICS</a>
+                        <a href="#">STUDENT AFFAIRS</a>
+                    </div>
+                </div>
+
+                <div class="tab" href="#ABOUT">ABOUT</div>
+            </div>
+        </div>
+    </div>
+    <!--middle content-->
+
+
+        <div style="width: 607px; left: 50%; transform: translateX(-50%); top: 41px; position: absolute; color: #36454F; font-size: 16px; font-family: Roboto; font-weight: 400; word-wrap: break-word; text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidmagna aliqua. Ut enim ad minim veniam, quis nostrud ex....
+        </div>
+        <div style="left: 50%; transform: translateX(-50%); top: 0px; position: absolute; color: #36454F; font-size: 18px; font-family: Roboto; font-weight: 700; word-wrap: break-word; text-align: center;">
+            TITLE
+        </div>
+
+        
+    <script src="2offices.js"></script>
+
+    <div class="queing">
+        <div class="queing-tab"> REGISTRAR</div>
+        <div class="queing-tab"> ACADEMICS</div>
+        <div class="queing-tab"> CASHIER</div>
+    </div>
+
+
+
+</body>
+</html>
